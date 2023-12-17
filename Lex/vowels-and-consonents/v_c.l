@@ -7,6 +7,7 @@
 %%
 [aeiouAEIOU] {vowel_count++;}
 [a-zA-Z] {consonent_count++;}
+. ;
 %%
 
 int yywrap(){
